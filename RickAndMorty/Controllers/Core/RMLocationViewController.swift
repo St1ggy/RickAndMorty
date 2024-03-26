@@ -12,6 +12,12 @@ final class RMLocationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        configureUI()
+    }
+}
+
+private extension RMLocationViewController {
+    func configureUI() {
         view.backgroundColor = .systemBackground
         title = "Locations"
     }

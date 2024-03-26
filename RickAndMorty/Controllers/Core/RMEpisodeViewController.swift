@@ -12,6 +12,12 @@ final class RMEpisodeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        configureUI()
+    }
+}
+
+private extension RMEpisodeViewController {
+    func configureUI() {
         view.backgroundColor = .systemBackground
         title = "Episodes"
     }
